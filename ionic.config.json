@@ -1,0 +1,7 @@
+{
+  "name": "brainBackup",
+  "integrations": {
+    "capacitor": {}
+  },
+  "type": "angular-standalone"
+}
