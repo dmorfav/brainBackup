@@ -1,8 +1,8 @@
 import { CapacitorConfig } from '@capacitor/cli';
 
 const config: CapacitorConfig = {
-  appId: 'io.ionic.starter',
-  appName: 'brainBackup',
+  appId: 'com.dmorfav.brainbackup',
+  appName: 'BrainBackup',
   webDir: 'www',
   server: {
     androidScheme: 'https'
