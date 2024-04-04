@@ -1,0 +1,22 @@
+platforms:
+  android:
+    appName: BrainBackup
+    incrementVersionCode: true
+    versionCode: 1
+    versionName: '1.0.0'
+    packageName: 'com.dmorfav.brainbackup'
+    manifest:
+      - file: AndroidManifest.xml
+        target: manifest/application
+        inject:
+          <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+  ios:
+    targets:
+      App:
+        bundleId: 'com.dmorfav.brainbackup'
+        displayName: 'BrainBackup'
+        productName: 'BrainBackup'
+        buildNumber: 1
+        incrementBuild: true
+        version: '1.0.0'
+
